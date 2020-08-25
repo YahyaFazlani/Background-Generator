@@ -26,3 +26,8 @@ h3 {
     letter-spacing: 0.01em;
 
 }
+
+strong {
+    margin-left: 5px;
+    letter-spacing: normal;
+}
