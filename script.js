@@ -1,5 +1,5 @@
 var body = document.getElementById("gradient");
-var css = document.querySelector("h3");
+var css = document.querySelectorAll("h3")[1];
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 var direction = document.querySelector("#direction")
@@ -7,7 +7,7 @@ var direction = document.querySelector("#direction")
 function setGradient() {
 	body.style.background = 
 	"linear-gradient(" + direction.value + ", " + color1.value + ", " + color2.value + ")";
-	css.textContent = body.style.background + ";";
+	css.textContent = body.style.background + "; \n";
 }
 
 function setDirection() {
